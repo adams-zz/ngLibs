@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	border: solid 2px #333;
+	height: 200px;
+}
+
+.content {
+	margin: 0 auto;
+	min-width: 700px;
+	max-width: 900px;
+}
+
+.header-left {
+	text-align: center;
+	border-right: solid 2px #333;
+	display: inline-block;
+	width: 29%;
+	height: 100%;
+}
+
+.header-left > img{
+	margin-top: 20px;
+	height: 150px;
+	vertical-align: center;
+}
+
+.header-right {
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+	width: 70%;
+}
+
+.header-right > p{
+	font-size: 40px;
+}
+
+.logo {
+	height: 75px;
+	margin-top: 10px;
+}
+
+section {
+	border: solid 2px #333;
+};
+
+span  {
+	font-weight: bold;
+	font-size: 20px;
+}
