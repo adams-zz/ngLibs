@@ -48,7 +48,8 @@ section {
 	border: solid 2px #333;
 };
 
-span  {
+.madlib  {
 	font-weight: bold;
 	font-size: 20px;
+	border-bottom: 1px solid black;
 }
